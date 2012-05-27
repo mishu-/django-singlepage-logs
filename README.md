@@ -34,6 +34,12 @@ Add `singlepagelogs.middleware.HeaderLoggingMiddleware` to the
     #Logging module name; must be pre-defined in the settings.py LOGGING variable
     LOGGER_NAME = 'django.request'
 ~~~
+
+Dependencies
+------------
+
+1. Django - https://github.com/django/django
+2. simplejson - https://github.com/simplejson/simplejson
     
 TODO
 ----
